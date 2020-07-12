@@ -18,7 +18,7 @@ from datetime import timedelta
 from collections import OrderedDict, deque, Counter
 
 
-ot = commands.Bot(command_prefix = ".")
+Bot = commands.Bot(command_prefix = ".")
 
 Bot.remove_command('help')
 
