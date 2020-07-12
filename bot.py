@@ -20,7 +20,6 @@ from collections import OrderedDict, deque, Counter
 
 Bot = commands.Bot(command_prefix = ".")
 
-Bot.remove_command('help')
 
 @Bot.event
 async def on_ready():
